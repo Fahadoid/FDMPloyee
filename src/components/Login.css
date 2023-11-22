@@ -1,0 +1,46 @@
+
+* {
+    box-sizing: border-box;
+}
+ .App {
+     max-width: 600px;
+     margin: 0 auto;
+}
+ p {
+     text-align: left;
+     font-weight: 500;
+}
+p[id='login']{
+    font-size: large;
+}
+img[id='logo']{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+ input[type=text],input[type=email], select, textarea {
+     width: 100%;
+     padding: 12px;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     box-sizing: border-box;
+     margin-top: 6px;
+     margin-bottom: 16px;
+     resize: vertical;
+}
+button[type=submit]{
+    width: 90px;
+    height: 45px;
+    border-radius: 9px;
+    font-size: medium;
+    justify-content: right;
+    background-color: white;
+    cursor: pointer;
+}
+.inputspace{
+    text-align: left;
+}
+.loginlinks{
+    margin-bottom: 50px;
+}

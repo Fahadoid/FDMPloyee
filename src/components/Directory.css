@@ -1,0 +1,39 @@
+.directory{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.details{
+    border-style: solid;
+    height: 110px;
+    border-width: 1px;
+    border-radius: 1px;
+    border-color: lightgrey;
+    background-color: white;
+    text-indent: 2%;
+    margin-bottom: 20px;
+    width: 400px;
+}
+p[id='det']{
+    text-align: center;
+}
+.namebox{
+    border-style: solid;
+    border-width: 1px;
+    width: 400px;
+    border-radius: 1px;
+    border-color: lightgrey;
+    background-color: white;
+    text-indent: 2%;
+    margin-top: 50px;
+}
+.accountbox{
+    border-style: solid;
+    height: 155px;
+    border-width: 1px;
+    border-radius: 1px;
+    border-color: lightgrey;
+    background-color: white;
+    text-indent: 2%;
+    margin-bottom: 20px;
+    width: 400px;
+}
